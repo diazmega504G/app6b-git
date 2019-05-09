@@ -11,10 +11,9 @@ $(document).ready(function (e){
 			navigator.notification. confirm("¿Que quieres hacer?", function(opt){
 				switch(opt)
 				{
-					case 1:
-					navigator.notification.bee(1);
+						case 1:
+		            navigator.notification.beep(1);
 					break;
-					
 					case 2: 
 					navigator.notification.vibrate(1000);
 					break;
